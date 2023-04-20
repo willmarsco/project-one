@@ -1,0 +1,7 @@
+@use './styleguide' as *;
+
+nav {
+    color: $black;
+    font-size: 100px;
+    font-family: $lora;
+}

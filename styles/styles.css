@@ -1,0 +1,10 @@
+nav {
+  color: #1A2428;
+  font-size: 100px;
+  font-family: "Lora", serif;
+}
+
+header {
+  background-image: url(../../../assets/header/background.png);
+  height: 800px;
+}
