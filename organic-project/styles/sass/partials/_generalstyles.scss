@@ -1,7 +1,135 @@
 @use './styleguide' as *;
 
+html {
+    font-size: 125%;
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 nav {
     color: $black;
-    font-size: 100px;
-    font-family: $lora;
+    font-size: 15px;
+    font-family: $barlow;
+    font-weight: 600;
+    height: 100px;
 }
+
+.navBar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.navBar-links li {
+    list-style: none;
+}
+
+.navBar-links li a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    display: block;
+    align-items: center;
+}
+
+h1 {
+
+    font-family: $lora;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: $lora;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+h3 {
+    font-family: $lora;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+p {
+    font-family: $barlow;
+    font-weight: 400;
+}
+
+li {
+    list-style: none;
+}
+
+.shopNow {
+    color: white;
+    background-color: #207200;
+    font-size: 12px;
+    font-family: $barlow;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.addCart {
+    color: white;
+    background-color: #207200;
+    font-size: 12px;
+    font-family: $barlow;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+
+}
+
+.loadMore {
+    color: white;
+    background-color: #207200;
+    font-size: 12px;
+    font-family: $barlow;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    justify-content: center;
+    
+}
+
+.gButtons {
+    color: white;
+    background-color: #207200;
+    font-size: 12px;
+    font-family: $barlow;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    
+}
+
+.readMore {
+    color: white;
+    background-color: #207200;
+    font-size: 12px;
+    font-family: $barlow;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
